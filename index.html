@@ -8,86 +8,117 @@
   <style>
     body {
       margin: 0;
-      font-family: Arial, sans-serif;
-      background-color: #0e0e0e;
-      color: #ffffff;
-      line-height: 1.6;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #0b0b0b;
+      color: #e0e0e0;
     }
     header {
-      background-color: #1f1f1f;
-      padding: 20px;
+      background: linear-gradient(135deg, #00ffcc, #006666);
+      padding: 40px 20px;
       text-align: center;
     }
     header h1 {
       margin: 0;
-      font-size: 2.5em;
+      font-size: 3em;
+      color: #000;
       letter-spacing: 2px;
     }
     .tagline {
       font-size: 1.2em;
-      color: #aaaaaa;
+      color: #111;
     }
     section {
-      padding: 40px 20px;
-      max-width: 800px;
+      padding: 50px 20px;
+      max-width: 900px;
       margin: auto;
     }
     h2 {
       color: #00ffcc;
+      border-bottom: 2px solid #00ffcc;
+      padding-bottom: 5px;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    ul li {
       margin-bottom: 10px;
+    }
+    .highlight {
+      color: #00ffcc;
+      font-weight: bold;
     }
     footer {
       background-color: #1f1f1f;
-      color: #888;
+      color: #777;
       text-align: center;
-      padding: 20px;
-      font-size: 0.9em;
+      padding: 30px 20px;
+      font-size: 0.95em;
     }
     a {
       color: #00ffcc;
       text-decoration: none;
     }
     .cta {
+      display: inline-block;
       background-color: #00ffcc;
       color: #000;
-      padding: 10px 20px;
-      display: inline-block;
-      border-radius: 5px;
-      margin-top: 20px;
+      padding: 14px 28px;
+      font-size: 1.1em;
+      border-radius: 6px;
+      text-align: center;
+      margin-top: 25px;
     }
     .cta:hover {
       background-color: #00ddb3;
+    }
+    .card {
+      background-color: #1a1a1a;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      box-shadow: 0 0 10px rgba(0, 255, 204, 0.2);
     }
   </style>
 </head>
 <body>
   <header>
     <h1>STONECOIL</h1>
-    <div class="tagline">Precision Vibration Analysis. Predictive Power.</div>
+    <div class="tagline">Remote Vibration Diagnostics for Critical Assets</div>
   </header>
 
   <section>
-    <h2>What We Do</h2>
-    <p>STONECOIL provides expert remote vibration analysis to detect machine faults before they become failures. Our service empowers maintenance teams to prevent downtime, reduce cost, and protect assets across industrial facilities.</p>
+    <div class="card">
+      <h2>About STONECOIL</h2>
+      <p><span class="highlight">STONECOIL</span> delivers elite-level, remote vibration analysis for mission-critical mechanical systems. We specialize in precision diagnostics that identify mechanical faults before failure—saving time, money, and machinery.</p>
+    </div>
 
-    <h2>Services</h2>
-    <ul>
-      <li>FFT Spectral Analysis</li>
-      <li>Bearing Fault Detection</li>
-      <li>Unbalance and Misalignment Identification</li>
-      <li>Detailed PDF Reports</li>
-      <li>Remote Support and Consultation</li>
-    </ul>
+    <div class="card">
+      <h2>Our Services</h2>
+      <ul>
+        <li>FFT & Time Waveform Analysis</li>
+        <li>Rolling Element Bearing Fault Identification</li>
+        <li>Imbalance, Looseness, and Misalignment Detection</li>
+        <li>Harmonic & Resonance Pattern Diagnosis</li>
+        <li>Custom PDF Reports with Actionable Recommendations</li>
+      </ul>
+    </div>
 
-    <h2>Contact</h2>
-    <p>Ready to send us your vibration data? Have questions?</p>
-    <p>Email: <a href="mailto:stonecoilvibration@gmail.com">stonecoilvibration@gmail.com</a></p>
-    <p>Call/Text: <a href="tel:+14059237292">(405) 923-7292</a></p>
-    <a class="cta" href="mailto:stonecoilvibration@gmail.com">Start Your Analysis</a>
+    <div class="card">
+      <h2>Why Remote?</h2>
+      <p>Our remote approach eliminates overhead and enables faster turnaround. Just send your data—we handle the analysis and deliver clear, no-BS insights on what your machine is doing and what to fix.</p>
+    </div>
+
+    <div class="card">
+      <h2>Contact</h2>
+      <p>Have questions or ready to submit data?</p>
+      <p>Email: <a href="mailto:stonecoilvibration@gmail.com">stonecoilvibration@gmail.com</a><br>
+         Call/Text: <a href="tel:+14059237292">(405) 923-7292</a></p>
+      <a class="cta" href="mailto:stonecoilvibration@gmail.com">Start Your Analysis</a>
+    </div>
   </section>
 
   <footer>
-    &copy; 2025 STONECOIL. All rights reserved.
+    &copy; 2025 STONECOIL. Built for precision. Powered by data.
   </footer>
 </body>
 </html>
